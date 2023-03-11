@@ -1,6 +1,6 @@
 {
   "name": "nicer-color-palettes",
-  "version": "4.0.0",
+  "version": "4.0.1",
   "description": "nicer color palettes as JSON",
   "main": "./src/index.js",
   "license": "MIT",
@@ -10,11 +10,9 @@
     "url": "https://github.com/cmgriffing"
   },
   "devDependencies": {
-    "@types/got": "^9.6.12",
     "array-equal": "^1.0.0",
     "canvas-sketch": "0.7.6",
     "canvas-sketch-cli": "^1.11.20",
-    "got": "^12.6.0",
     "map-limit": "0.0.1",
     "minimist": "^1.2.0",
     "new-array": "^1.0.0",
@@ -47,10 +45,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/Jam3/nice-color-palettes.git"
+    "url": "git://github.com/cmgriffing/nicer-color-palettes.git"
   },
-  "homepage": "https://github.com/Jam3/nice-color-palettes",
+  "homepage": "https://github.com/cmgriffing/nicer-color-palettes",
   "bugs": {
-    "url": "https://github.com/Jam3/nice-color-palettes/issues"
+    "url": "https://github.com/cmgriffing/nicer-color-palettes/issues"
   }
 }

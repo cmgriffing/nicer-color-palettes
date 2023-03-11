@@ -2,7 +2,7 @@
   "name": "nicer-color-palettes",
   "version": "4.0.0",
   "description": "nicer color palettes as JSON",
-  "main": "./100.json",
+  "main": "./src/index.js",
   "license": "MIT",
   "author": {
     "name": "Chris Griffing",
@@ -10,6 +10,7 @@
     "url": "https://github.com/cmgriffing"
   },
   "devDependencies": {
+    "@types/got": "^9.6.12",
     "array-equal": "^1.0.0",
     "canvas-sketch": "0.7.6",
     "canvas-sketch-cli": "^1.11.20",

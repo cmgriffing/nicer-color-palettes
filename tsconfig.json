@@ -1,9 +1,12 @@
 {
+  // "files": ["./src/*.ts"],
   "compilerOptions": {
     "allowSyntheticDefaultImports": true,
     "jsx": "react",
     "downlevelIteration": true,
-    "strict": true
+    "strict": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true
   },
   "include": ["**/*.ts", "**/*.tsx"]
 }

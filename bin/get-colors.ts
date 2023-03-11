@@ -1,12 +1,12 @@
-import got from "got";
 const mapLimit = require("map-limit");
 import { ColorPalette } from "./types";
 
 function request(url: string, cb: Function) {
   try {
-    got(url, { json: true })
-      .then((response) => {
-        cb(null, response.body);
+    fetch(url, { method: "POST", body: JSON.stringify({ json: true }) })
+      .then((response) => response.json())
+      .then((body) => {
+        cb(null, body);
       })
       .catch((err) => cb(err));
   } catch (err) {

@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "jsx": "react",
+    "downlevelIteration": true,
+    "strict": true
+  },
+  "include": ["**/*.ts", "**/*.tsx"]
+}

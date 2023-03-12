@@ -15,10 +15,13 @@ getColors(1000, function (err: Error, palettes: ColorPalette[]) {
   console.log(new Date().toString());
 
   function write(count: number) {
-    var file = path.resolve(outDir, count + ".json");
+    var file = path.resolve(outDir, count + ".ts");
     fs.writeFile(
       file,
-      JSON.stringify(palettes.slice(0, count)),
+      `
+        const colors = ${JSON.stringify(palettes.slice(0, count))};
+        export default colors;
+      `,
       function (err: Error | null) {
         if (err) console.error(err.message);
       }

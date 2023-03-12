@@ -1,6 +1,6 @@
 {
   "name": "nicer-color-palettes",
-  "version": "4.0.1",
+  "version": "4.1.0",
   "description": "nicer color palettes as JSON",
   "main": "./src/index.js",
   "license": "MIT",
